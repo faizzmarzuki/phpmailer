@@ -17,7 +17,7 @@ if (isset($_POST['btnSubmit'])) { //which button work as submit button, initiali
   try {
     // SMTP Configuration
     $mail->isSMTP();
-    $mail->Host = '	smtp.gmail.com';//host dont change anything here
+    $mail->Host = '	smtp.gmail.com';//dont change anything here
     $mail->SMTPAuth = true;
     $mail->Username = '';//insert sender email (real email!!)
     $mail->Password = '';//insert sender password (real email!!)
